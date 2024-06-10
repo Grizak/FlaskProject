@@ -7,7 +7,7 @@
   "updateContentCommand": "pip install -r requirements.txt",
   "postCreateCommand": "",
   "postAttachCommand": {
-    "server": "flask --debug run"
+    "server": "npx live-server"
   },
   "portsAttributes": {
     "5000": {
